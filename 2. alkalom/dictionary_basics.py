@@ -132,3 +132,31 @@ my_dict = {
 
     }
 }
+
+
+
+
+my_dict = {
+    "fruits": {
+        "deli": {
+            "categories": [
+                {
+                    "category_name ": "banan",
+                    "measurement": "kg",
+                    "amount": 10,
+                },
+                 {
+                    "category_name ": "narancs",
+                    "measurement": "kg",
+                    "amount": 10,
+                },
+                  {
+                    "category_name ": "egyeb",
+                    "measurement": "kg",
+                    "amount": 10,
+                    "parts": [],
+                }
+            ]
+        }
+    }
+}
