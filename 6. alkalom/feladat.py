@@ -46,6 +46,7 @@ def get_data_from_txt():
 
     return data
 
+# print(__name__)
 
 if __name__ == '__main__':
     data = get_data_from_txt()
