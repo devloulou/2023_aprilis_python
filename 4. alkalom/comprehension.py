@@ -46,6 +46,7 @@ my_dict = {idx:item for idx, item in enumerate(['Ricsi', 'Karcsi', 'Pisti'])}
 # generator comprehension
 
 # a generator comprehension úgynevezett 'lazy evaluation'-t használ - laza kiértékelés
+# generator expression
 # nem értékeli ki a kifejezést futási időben és nem generálja le a memóriába a kifejezés eredményét
 my_list = [str(item) for item in range(0, 1000000) if item%3 == 0]
 my_gen = (str(item) for item in range(0, 10) if item%3 == 0)
