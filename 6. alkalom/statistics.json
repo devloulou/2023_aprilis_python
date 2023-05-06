@@ -1,0 +1,35 @@
+{
+    "page_num": 290,
+    "min_max": {
+        "min": {
+            "value": "is.",
+            "len": 3
+        },
+        "max": {
+            "value": "had seen those awful women growing into reality through the whirling mist",
+            "len": 73
+        }
+    },
+    "most_common_words": [
+        [
+            "which",
+            636
+        ],
+        [
+            "there",
+            508
+        ],
+        [
+            "could",
+            458
+        ],
+        [
+            "shall",
+            410
+        ],
+        [
+            "would",
+            408
+        ]
+    ]
+}
