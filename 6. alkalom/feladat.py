@@ -124,7 +124,7 @@ def most_common_5_words(data):
     temp = [item for item in temp if len(item) >=5]
 
     c = Counter(temp)
-
+    
     return c.most_common(5)
 
 
