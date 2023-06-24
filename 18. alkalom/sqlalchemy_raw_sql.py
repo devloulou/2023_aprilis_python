@@ -30,6 +30,7 @@ from sqlalchemy import create_engine, text
 
 engine = create_engine("postgresql://postgres:postgres@localhost/postgres")
 
+
 cre_table = "create table if not exists engineer_test (col text, col2 text, col3 text, col4 text, col5 text, col6 text)"
 
 delete = "delete from engineer_test where cast(col as integer) > 50"
@@ -54,9 +55,10 @@ with engine.connect() as conn:
     print(result)
     for item in result:
         print(item)
-    # conn.execute(text(insert_table), data)
+    # conn.execute(text(insert_table), data) > ezt javaslom használni
 
     # for item in data:
     #     conn.execute(text(insert_table), item)
     print(f"took me: {time.time() - start_time}")
     conn.commit()
+    conn.close()
